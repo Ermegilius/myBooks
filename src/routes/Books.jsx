@@ -72,7 +72,9 @@ function Books() {
 
   const deleteBook = async (id) => {
     await remove(`books/${id}`);
-    setFilteredBooks((prevBooks) => prevBooks.filter(book => book.id !== id)); // Update filteredBooks after deletion
+    setName(''); 
+    setAuthor('');
+    setGenre(''); 
   };
 
   return (
