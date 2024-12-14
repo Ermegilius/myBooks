@@ -1,20 +1,6 @@
 {
   "books": [
     {
-      "id": 1,
-      "author": "Antoine de Saint-Exupéry",
-      "name": "The Little Prince",
-      "genres": [
-        "Fantasy",
-        "Adventure"
-      ],
-      "completed": true,
-      "start": "2023-03-10",
-      "end": "2023-03-25",
-      "stars": 5,
-      "img": "https://upload.wikimedia.org/wikipedia/en/0/05/Littleprince.JPG"
-    },
-    {
       "id": 2,
       "author": "Walter Isaacson",
       "name": "Steve Jobs",
@@ -27,6 +13,33 @@
       "end": "2023-04-30",
       "stars": 4,
       "img": "https://upload.wikimedia.org/wikipedia/en/e/e4/Steve_Jobs_by_Walter_Isaacson.jpg"
+    },
+    {
+      "id": 4,
+      "author": "J.K. Rowling",
+      "name": "Harry Potter and the Sorcerer's Stone",
+      "genres": [
+        "Fantasy",
+        "Adventure"
+      ],
+      "completed": true,
+      "start": "2023-06-15",
+      "end": "2023-07-10",
+      "stars": 5,
+      "img": "https://m.media-amazon.com/images/I/81DI+BAN2SL._AC_UY218_.jpg"
+    },
+    {
+      "author": "David JP Phillips",
+      "name": "High on Life",
+      "genres": [
+        "Non-Fiction"
+      ],
+      "completed": true,
+      "start": null,
+      "end": null,
+      "stars": "5",
+      "id": 5,
+      "img": "https://www.davidjpphillips.com/wp-content/uploads/2023/08/highonlife_copy-195x300.jpg"
     },
     {
       "id": 3,
@@ -43,86 +56,12 @@
       "img": "https://images.booksense.com/images/935/524/9780451524935.jpg"
     },
     {
-      "id": 4,
-      "author": "J.K. Rowling",
-      "name": "Harry Potter and the Sorcerer's Stone",
+      "author": "jhgfds",
+      "name": "asdfg",
       "genres": [
-        "Fantasy",
-        "Adventure"
-      ],
-      "completed": true,
-      "start": "2023-06-15",
-      "end": "2023-07-10",
-      "stars": 5,
-      "img": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61pX0NiXdvL._AC_.jpg"
-    },
-    {
-      "author": "David JP Phillips",
-      "name": "High on Life",
-      "genres": [
+        "Thriller",
         "Non-Fiction"
       ],
-      "completed": true,
-      "start": null,
-      "end": null,
-      "stars": "5",
-      "id": 5,
-      "img": "https://www.davidjpphillips.com/wp-content/uploads/2023/08/highonlife_copy-195x300.jpg"
-    },
-    {
-      "author": "Author",
-      "name": "some name",
-      "genres": [],
-      "completed": false,
-      "start": null,
-      "end": null,
-      "stars": "2",
-      "id": 6
-    },
-    {
-      "author": "Author",
-      "name": "Vladimir",
-      "genres": [],
-      "completed": false,
-      "start": null,
-      "end": null,
-      "stars": "4",
-      "id": 7
-    },
-    {
-      "author": "qwe",
-      "name": "qwe",
-      "genres": [],
-      "completed": false,
-      "start": null,
-      "end": null,
-      "stars": null,
-      "id": 8
-    },
-    {
-      "author": "dthyfjn",
-      "name": "iouhgh",
-      "genres": [],
-      "completed": false,
-      "start": null,
-      "end": null,
-      "stars": null,
-      "id": 9
-    },
-    {
-      "author": "dthyfjnd",
-      "name": "iouhgh",
-      "genres": [],
-      "completed": false,
-      "start": null,
-      "end": null,
-      "stars": null,
-      "id": 10
-    },
-    {
-      "author": "dthyfjnd",
-      "name": "iouhghasdasd",
-      "genres": [],
       "completed": false,
       "start": null,
       "end": null,
@@ -130,14 +69,82 @@
       "id": 11
     },
     {
-      "author": "dthyfjndd",
-      "name": "iouhghasdasd",
-      "genres": [],
+      "author": "jhgfds",
+      "name": "asdfg",
+      "genres": [
+        "Thriller",
+        "Non-Fiction"
+      ],
       "completed": false,
       "start": null,
       "end": null,
       "stars": null,
       "id": 12
+    },
+    {
+      "author": "jhgfds",
+      "name": "asdfg",
+      "genres": [
+        "Thriller",
+        "Non-Fiction"
+      ],
+      "completed": false,
+      "start": null,
+      "end": null,
+      "stars": null,
+      "id": 13
+    },
+    {
+      "author": "jhgfds",
+      "name": "asdfg",
+      "genres": [
+        "Thriller",
+        "Non-Fiction"
+      ],
+      "completed": false,
+      "start": null,
+      "end": null,
+      "stars": null,
+      "id": 14
+    },
+    {
+      "author": "jhgfds",
+      "name": "asdfg",
+      "genres": [
+        "Thriller",
+        "Non-Fiction"
+      ],
+      "completed": false,
+      "start": null,
+      "end": null,
+      "stars": null,
+      "id": 15
+    },
+    {
+      "author": "jhgfds",
+      "name": "asdfg",
+      "genres": [
+        "Thriller",
+        "Non-Fiction"
+      ],
+      "completed": false,
+      "start": null,
+      "end": null,
+      "stars": null,
+      "id": 16
+    },
+    {
+      "author": "jhgfds",
+      "name": "asdfg",
+      "genres": [
+        "Thriller",
+        "Non-Fiction"
+      ],
+      "completed": false,
+      "start": null,
+      "end": null,
+      "stars": null,
+      "id": 18
     }
   ]
 }
