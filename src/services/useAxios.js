@@ -18,7 +18,15 @@ const useAxios = (baseUrl) => {
     try {
       setLoading(true);
       const response = await axios[method](`${baseUrl}/${endpoint}`, payload);
+//ASC MARGIT WHY DO I NEED TO CHECK DATA TYPE HERE TO MAKE DELETE ICON WORK? IT ANYWAY RETURNS AN ARRAY...
+//MY GUES IS THAT WE NEED AN EMPTY ARRAY ON MOUNTIONG STAGE
+      //old:
+      //setData(response.data);
+
+      //new:
       setData(Array.isArray(response.data) ? response.data : []); // Ensure response data is an array
+
+      console.log(response.data);
       showAlert('Request successful', 'success');
     } catch (err) {
       showAlert(`Error: ${err.message}`, 'error');
