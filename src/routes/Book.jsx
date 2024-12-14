@@ -38,8 +38,7 @@ function Book() {
             <Box
                 sx={{
                     height: 400,
-                    width: '100%',
-                    minWidth: 300,
+                    width: '50%',
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
@@ -56,7 +55,7 @@ function Book() {
             <Box sx={{
                     pt: 2,
                     pl: 2,
-                    width: '100%',
+                    width: '50%',
                     }}>
                 {book.genres.map((genre, i) => (
                 <Chip
