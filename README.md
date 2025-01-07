@@ -1,67 +1,80 @@
-# Books MVP
+# MyBooks Project
 
-Your task is to address all issues listed below.  
-Fork this project and solve the tickets one by one by creating a branch for each ticket, implementing the solution, and merging it into the main branch. **Keep each branch after merging.**
+MyBooks is my learning project. It builds a web application designed to help users manage their personal book collection. Users can add new books, mark books as completed, and categorize books by genres.
 
-### 1. **Ticket #101 - Enhance code documentation**
+## Features
 
-- **User Story**:  
-  As a developer, I want detailed comments for each function to better understand the codebase and maintain it efficiently.  
-- **Task**:  
-  Add descriptive comments to all functions across the codebase to improve readability and facilitate easier maintenance.
+- **Book List**: Displays a list of all books in the collection.
+- **Book Details**: Shows detailed information about a book, including the author, genres, completion status, and rating.
+- **Add New Book**: A form to add new books to the collection.
+- **Delete Book**: Allows users to remove a book from the collection.
+- **Filter**: Users can filter the book list.
 
-### 2. **Ticket #102 - Refactor `Books.jsx` to use a custom hook**
+## Installation
 
-- **User Story**:  
-  As a developer, I want to use the `useAxios` custom hook in `Books.jsx` to streamline HTTP requests and ensure consistency in data fetching.  
-- **Task**:  
-  Replace the current `axios.get` calls in `Books.jsx` with the `useAxios` custom hook without changing the existing functionality.
+1. Clone the repository:
 
-### 3. **Ticket #103 - Add search functionality to `Books.jsx`**
+```shell
+git clone https://github.com/yourusername/myBooks.git
+```
 
-- **User Story**:  
-  As a user, I want to search for books by title, author, or genre, so I can easily find specific books.  
-- **Task**:  
-  Add a search feature to `Books.jsx` that filters books based on the user's input.
+2. Navigate to the project directory:
 
-### 4. **Ticket #104 - Fix `Rating` component mouseover in `AddBook.jsx`**
+```shell
+cd myBooks
+```
 
-- **User Story**:  
-  As a user, I want to see the rating value clearly when hovering over stars to understand the selected value.  
-- **Task**:  
-  Update the `Rating` component in `AddBook.jsx` to ensure the mouseover behavior works correctly and displays the rating value clearly.
+3. Install the required dependencies:
 
-### 5. **Ticket #105 - Adjust message display timing in `AddBook.jsx`**
+```shell
+npm install
+```
 
-- **User Story**:  
-  As a user, I want success or error messages to display long enough for me to understand the outcome of my actions.  
-- **Task**:  
-  Modify `AddBook.jsx` to ensure that success or error messages are displayed for the full 5000 milliseconds as specified in the `useAxios` hook.
+4. Start the server:
 
-### 6. **Ticket #106 - Fix post method in `AddBook.jsx`**
+```shell
+npm run server
+```
 
-- **User Story**:  
-  As a user, I want to add new books and see them listed.  
-- **Task**:  
-  Update `AddBook.jsx` to ensure books are successfully posted and appear in the book list.
+5. Run the App:
 
-### 7. **Ticket #107 - Implement an image URL fallback**
+```shell
+npm run fyl
+```
 
-- **User Story**:  
-  As a user, I want a default image to display for books without an image URL, keeping the interface consistent and visually appealing.  
-- **Task**:  
-  Add a fallback mechanism in `AddBook.jsx` to display a default image when no image URL is provided.
+## Usage
 
-### 8. **Ticket #108 - Develop `SinglePage` Component**
+- To add a new book, click on the "Add Book" button and fill out the form.
+- To delete a book, click on the book in the list and then click the "Delete" button or on "Delete" icon in the upper-right corner of the book.
+- To filter books by name, author or genre, use the filters dropdown at the top of the book list.
 
-- **8.1. Route and Navigation Links**  
-  - **User Story**:  
-    As a user, I want to navigate to a detailed page for each book to view more information.  
-  - **Task**:  
-    Set up a new route and navigation links for the `SinglePage` component.  
+## Data Structure
 
-- **8.2. Consistent Styling**  
-  - **User Story**:  
-    As a user, I want the `SinglePage` component to match the style of the rest of the application for a seamless experience.  
-  - **Task**:  
-    Use Material-UI to style the `SinglePage` component, ensuring it aligns with the application's existing design.
+The book data is stored in a JSON file located at books.json. Each book entry includes the following fields:
+
+- `id`: Unique identifier for the book.
+- `author`: The author of the book.
+- `name`: The title of the book.
+- `genres`: An array of genres the book belongs to.
+- `completed`: A boolean indicating whether the book has been completed.
+- `start`: The start date of reading the book.
+- `end`: The end date of reading the book.
+- `stars`: The rating of the book.
+- `img`: A URL to the book's cover image.
+
+## Future Improvements
+
+Add user authentication to allow multiple users to manage their own book collections.
+Add edit functionality to allow users to update book details.
+Add more detailed validation to the forms.
+Improve the UI/UX with more styling and responsive design.
+Add more features like sorting books by rating or completion status.
+
+## Reflection
+
+This project helped me understand React components, props, and hooks better. I gained experience with managing state and handling user input in forms. Additionally, I learned how to build "fake" JSON server.
+
+## Contact
+
+For any questions or feedback, please contact me at [ermegilius@gmail.com](mailto:ermegilius@gmail.com).
+Thank you for using MyBooks! Happy reading! 📚
