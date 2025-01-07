@@ -72,7 +72,7 @@ Add more features like sorting books by rating or completion status.
 
 ## Reflection
 
-This project helped me understand React components, props, and hooks better. I gained experience with managing state and handling user input in forms. Additionally, I learned how to build "fake" JSON server.
+This project helped me understand React components, props, and hooks better. I got some understanding ot Material UI implementation. I gained experience with managing state and handling user input in forms. Additionally, I learned how to build "fake" JSON server.
 
 ## Contact
 
